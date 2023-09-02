@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	int num;
+	cout<<"Digite el valor inicial: \n";
+	cin>>num;
+	int num2;
+	cout<<"Digite el valor final: \n ";
+	cin>>num2;
+	int i;
+//	for(i=num;i<num2;i=i+2)
+//		cout<<i;
+	
+	for(i=num;i<num2;i++){
+		num=i%2;
+		if(num==0)
+			cout<<i;
+	}
+	
+	return 0;
+}
