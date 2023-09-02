@@ -1,3 +1,4 @@
+//Ejercicio 6 de la pag.23.
 #include<iostream>
 using namespace std;
 int main(){
